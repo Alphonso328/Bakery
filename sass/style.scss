@@ -1,0 +1,163 @@
+$dark-overlay: rgba(0, 0, 0, 0.6);
+.dark-overlay {
+  background-color: $dark-overlay;
+  background-size: cover;
+  background-position: center;
+  padding-top: 10%;
+}
+
+.nav-item {
+  font-size: 4.8em;
+  padding-left: 1em;
+  padding-right: 1em;
+}
+
+.nav-link {
+  color: #f40;
+}
+
+#about {
+  .lead {
+    font-family: "labo";
+    font-size: 1.5em;
+  }
+}
+
+#side {
+  .lead {
+    font-size: 2.5em;
+  }
+  font-family: "Brush Script MT";
+}
+
+.navbar-brand {
+  font-size: 1.8em;
+}
+
+.active {
+  color: #ff0;
+}
+
+#Home {
+  background: url(../img/praline.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  h1 {
+    font-family: "Brush Script MT";
+    font-size: 6.5em;
+    margin-top: 11vh;
+  }
+  a,
+  .display-4 {
+    font-family: "Brush Script MT";
+  }
+  i {
+    padding-top: 0;
+    margin-top: 0;
+    padding-right: 1.5em;
+  }
+}
+
+#contact_me {
+  i {
+    padding-left: 1em;
+  }
+  font-family: "Brush script mt";
+}
+
+footer {
+  background-color: #000;
+}
+
+#cap {
+  font-size: 2em;
+}
+
+#instafeed {
+  padding-top: 5vh;
+  .instaimg {
+    margin-bottom: 30px;
+  }
+  .instaimg img:hover {
+    opacity: 0.8;
+  }
+}
+
+a {
+  color: #fff;
+}
+
+a,
+i,
+.fa :hover {
+  color: #fff;
+}
+
+hr {
+  border: 2px solid #fff;
+}
+
+.lead {
+  font-weight: bolder;
+}
+
+h3 {
+  font-family: "Brush Script Mt";
+  font-size: 2.5em;
+}
+
+@media screen and (max-width: 500px) {
+  #Home {
+    background: url(../img/plan.jpg);
+    align-items: center;
+    text-align: center;
+    h1 {
+      font-size: 2.5em;
+    }
+  }
+  #brand {
+    margin-top: 10vh;
+  }
+  #about {
+    margin-top: 20vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #Home {
+    background: url(../img/praline.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    h1 {
+      font-size: 4.5em;
+    }
+  }
+  #brand {
+    margin-top: 10vh;
+  }
+  #about {
+    margin-top: 20vh;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1170px) {
+  #Home {
+    background: url(../img/praline.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    text-align: center;
+    h1 {
+      font-size: 4.5em;
+    }
+  }
+  #brand {
+    margin-top: 15vh;
+  }
+  #about {
+    margin-top: 25vh;
+  }
+}
