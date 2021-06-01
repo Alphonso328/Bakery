@@ -9,6 +9,10 @@
     font-size: 1em;
     margin-left: 12%; }
 
+  .navbar-toggler{
+    color:#fff;
+  }
+
 #Home {
   background: url("../img/praline.jpeg");
   height: 100vh;
@@ -175,7 +179,7 @@
     font-weight: bold; }
 
 #cakes {
-  height: 20vh;
+ 
   margin-bottom: 5%; }
   #cakes .display-1 {
     padding-top: 5%;
@@ -203,10 +207,9 @@
   font-family: "train one", cursive;
   color: #f44;
   text-align: center;
-  height: 90vh;
   padding: 0; }
   #Testimonials .overlay {
-    position: initial;
+    position: relative;
     background-size: cover;
     height: 100%;
     width: 100%;
@@ -330,9 +333,63 @@ footer {
     font-size: 1.3em;
     background: #d8b90d;
     font-weight: bold;
-    line-height: 80px; }
+    line-height: 80px;
+    margin: 0%; }
 
-@media (min-width: 768px) {
+@media (max-width: 768px) {
+
+  .navbar {
+  font-family: "Train One", cursive;
+  font-size: 1.5em; }
+  .navbar .nav-link {
+    font-size: 1em;
+    color: gold; }
+  .navbar .navbar-brand {
+    display:none; }
+
+  #Home .navbar-toggler{
+    color:#d8b90d;
+  }
+
+#Home {
+  background: url("../img/praline.jpeg");
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; }
+  #Home .overlay {
+    position: absolute;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    background: #0000006a;
+    top: 0;
+    left: 0;
+    z-index: 1; }
+  #Home #brand {
+    margin-left: 5%; }
+    #Home #brand .display-1 {
+      color: gold;
+      font-size: 4.2em;
+      font-family: "Train One", cursive;
+      margin-top: 8%; }
+    #Home #brand h3 {
+      color: #fff;
+      font-size: 3.5em;
+      font-family: "Train One", cursive;
+      margin-top: 1%;
+      margin-bottom: 3%; }
+    #Home #brand p {
+      color: #fff;
+      font-size: 1.2em;
+      margin-bottom: 6%; }
+    #Home #brand a {
+      font-size: 1.5em;
+      color: #fff; }
+    #Home #brand .btn {
+      margin-top: 3%;
+      border-radius: 35px; }
+
   #about .row {
     margin-top: 4.5%; }
   #about .img-text {
@@ -352,7 +409,7 @@ footer {
     font-size: 14px; }
   #about .single-box {
     position: relative;
-    margin-bottom: 30px; }
+    margin-bottom: 5%; }
   #about .img-area {
     position: absolute;
     width: 50%;
@@ -365,7 +422,7 @@ footer {
   #about .carousel-indicators {
     left: 0;
     top: auto;
-    bottom: -70px; }
+    bottom: -3%; }
   #about .carousel-indicators li {
     background: #76574b;
     border-radius: 50%;
@@ -382,7 +439,50 @@ footer {
     color: #fff; }
   #about .card-body {
     font-size: 1.8em;
-    color: #fff; } }
+    color: #fff; } 
+
+    #Pre-2 {
+  background: url(../img/cookies.jpeg);
+  background-repeat: no-repeat;
+  background-position: right;
+  background-size: cover;
+  font-family: "train one", cursive;
+  color: #d8b90d;
+  text-align: center;
+  padding: 0;
+  margin-bottom: 5%; }
+  #Pre-2 .overlay {
+    position: relative;
+    background-size: cover;
+    height: 40vh;
+    width: 100%;
+    background: #0000003a;
+    top: 0;
+    margin-left: 0;
+    z-index: 1; }
+  #Pre-2 .display-4 {
+    font-weight: bold;
+    margin-top: 5%;
+    margin-bottom: 5%; }
+  #Pre-2 h3 {
+    margin-bottom: 5%;
+    font-weight: bold; }
+  #Pre-2 P {
+    font-size: 1.2em;
+    font-weight: bold; }
+
+    #Testimonials {
+  background: url(../img/prakash.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  font-family: "train one", cursive;
+  color: #f44;
+  text-align: center;
+  padding: 0; }
+  
+  }
+
 
 @media (min-width: 992px) {
   #about .img-text {
